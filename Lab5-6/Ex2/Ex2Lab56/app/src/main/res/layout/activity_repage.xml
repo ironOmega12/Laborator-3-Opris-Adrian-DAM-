@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".repage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/rebg"
+        android:layout_gravity="center"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/goBack"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="GoBack" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Resident Evil Village[a] is a 2021 survival horror game developed and published by Capcom. It is the sequel to Resident Evil 7: Biohazard (2017) and the tenth main game of the Resident Evil series. Players control Ethan Winters, who searches for his kidnapped daughter in a village filled with mutant creatures. Village maintains survival horror elements from previous games, with players scavenging environments for items and managing resources while also adds more action-oriented gameplay, with higher enemy counts and a greater emphasis on combat.
+
+Resident Evil Village was announced at the PlayStation 5 reveal event in June 2020 and was released on May 7, 2021, for PlayStation 4, PlayStation 5, Stadia, Windows, Xbox One, and Xbox Series X/S, followed by a macOS version and a cloud version for Nintendo Switch in October 2022, and a PlayStation VR2 version on February 22, 2023. An iOS version was released on October 30, 2023.
+
+The game received generally favorable reviews, with praise for its gameplay, setting, and variety, but criticism for its puzzles, boss fights, and performance issues on the Windows version; the increased focus on action divided opinions. Resident Evil Village won year-end accolades including Game of the Year at the Golden Joystick Awards. The game had sold 9.3 million units by December 2023.[1]"
+            android:textColor="@color/white"
+            android:padding="12dp"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
